@@ -1,0 +1,342 @@
+{
+  "version": "m2_metric_policies_v1",
+  "policies": [
+    {
+      "id": "AGE",
+      "markers": [
+        "age",
+        "old",
+        "yo"
+      ],
+      "scale": 5.0,
+      "low": 0.0,
+      "high": 120.0,
+      "step": 1.0
+    },
+    {
+      "id": "DURATION_YEARS",
+      "markers": [
+        "year",
+        "years",
+        "yr",
+        "yrs"
+      ],
+      "scale": 1.0,
+      "low": 0.0,
+      "high": 100.0,
+      "step": 1.0
+    },
+    {
+      "id": "CALENDAR_YEAR",
+      "markers": [
+        "january",
+        "february",
+        "march",
+        "april",
+        "may",
+        "june",
+        "july",
+        "august",
+        "september",
+        "october",
+        "november",
+        "december"
+      ],
+      "scale": 5.0,
+      "low": 1900.0,
+      "high": 2100.0,
+      "step": 1.0
+    },
+    {
+      "id": "COUNT",
+      "markers": [
+        "time",
+        "times",
+        "employee",
+        "employees",
+        "customer",
+        "customers",
+        "count",
+        "counts",
+        "child",
+        "children",
+        "kids",
+        "invoice",
+        "invoices"
+      ],
+      "scale": 5.0,
+      "low": 0.0,
+      "high": 10000.0,
+      "step": 1.0
+    },
+    {
+      "id": "MILES",
+      "markers": [
+        "mile",
+        "miles"
+      ],
+      "scale": 50.0,
+      "low": 0.0,
+      "high": 100000.0,
+      "step": 1.0
+    },
+    {
+      "id": "ACRES",
+      "markers": [
+        "acre",
+        "acres"
+      ],
+      "scale": 10.0,
+      "low": 0.0,
+      "high": 100000.0,
+      "step": 1.0
+    },
+    {
+      "id": "LENGTH_INCH",
+      "markers": [
+        "inch",
+        "inches",
+        "\""
+      ],
+      "scale": 1.0,
+      "low": 0.0,
+      "high": 200.0,
+      "step": 1.0
+    },
+    {
+      "id": "OSMOLALITY",
+      "markers": [
+        "mosmol",
+        "mosmo",
+        "osmolality"
+      ],
+      "scale": 10.0,
+      "low": 0.0,
+      "high": 500.0,
+      "step": 1.0
+    },
+    {
+      "id": "RESPIRATORY_RATE",
+      "markers": [
+        "respiratory",
+        "respiration",
+        "respirations"
+      ],
+      "scale": 4.0,
+      "low": 0.0,
+      "high": 80.0,
+      "step": 1.0
+    },
+    {
+      "id": "DURATION_DAYS",
+      "markers": [
+        "day",
+        "days"
+      ],
+      "scale": 7.0,
+      "low": 0.0,
+      "high": 36500.0,
+      "step": 1.0
+    },
+    {
+      "id": "DURATION_WEEKS",
+      "markers": [
+        "week",
+        "weeks"
+      ],
+      "scale": 4.0,
+      "low": 0.0,
+      "high": 5200.0,
+      "step": 1.0
+    },
+    {
+      "id": "DURATION_MONTHS",
+      "markers": [
+        "month",
+        "months"
+      ],
+      "scale": 6.0,
+      "low": 0.0,
+      "high": 2400.0,
+      "step": 1.0
+    },
+    {
+      "id": "DURATION_HOURS",
+      "markers": [
+        "hour",
+        "hours"
+      ],
+      "scale": 2.0,
+      "low": 0.0,
+      "high": 876000.0,
+      "step": 1.0
+    },
+    {
+      "id": "DURATION_MILLISECONDS",
+      "markers": [
+        " ms",
+        "millisecond"
+      ],
+      "scale": 10.0,
+      "low": 0.0,
+      "high": 10000.0,
+      "step": 1.0
+    },
+    {
+      "id": "PERCENTAGE",
+      "markers": [
+        "%",
+        "percent"
+      ],
+      "scale": 5.0,
+      "low": 0.0,
+      "high": 100.0,
+      "step": 1.0
+    },
+    {
+      "id": "BLOOD_PRESSURE",
+      "markers": [
+        "mmhg",
+        "mm hg",
+        "blood pressure"
+      ],
+      "scale": 10.0,
+      "low": 0.0,
+      "high": 300.0,
+      "step": 1.0
+    },
+    {
+      "id": "LENGTH_CM",
+      "markers": [
+        " cm",
+        "centimeter"
+      ],
+      "scale": 5.0,
+      "low": 0.0,
+      "high": 1000.0,
+      "step": 1.0
+    },
+    {
+      "id": "WEIGHT_KG",
+      "markers": [
+        " kg",
+        "kilogram"
+      ],
+      "scale": 5.0,
+      "low": 0.0,
+      "high": 500.0,
+      "step": 1.0
+    },
+    {
+      "id": "WEIGHT_LB",
+      "markers": [
+        " lb",
+        "pound"
+      ],
+      "scale": 10.0,
+      "low": 0.0,
+      "high": 1100.0,
+      "step": 1.0
+    },
+    {
+      "id": "TEMPERATURE",
+      "markers": [
+        "°c",
+        "°f",
+        "temperature"
+      ],
+      "scale": 5.0,
+      "low": -100.0,
+      "high": 200.0,
+      "step": 1.0
+    },
+    {
+      "id": "HEART_RATE",
+      "markers": [
+        "bpm",
+        "/min",
+        "pulse",
+        "heart rate"
+      ],
+      "scale": 10.0,
+      "low": 0.0,
+      "high": 300.0,
+      "step": 1.0
+    },
+    {
+      "id": "CONCENTRATION_MG_DL",
+      "markers": [
+        "mg/dl",
+        "mg per dl"
+      ],
+      "scale": 50.0,
+      "low": 0.0,
+      "high": 1000.0,
+      "step": 1.0
+    },
+    {
+      "id": "CONCENTRATION_MEQ_L",
+      "markers": [
+        "meq/l",
+        "meq per l"
+      ],
+      "scale": 10.0,
+      "low": 0.0,
+      "high": 200.0,
+      "step": 1.0
+    },
+    {
+      "id": "CONCENTRATION_MMOL_L",
+      "markers": [
+        "mmol/l",
+        "mmol per l"
+      ],
+      "scale": 5.0,
+      "low": 0.0,
+      "high": 100.0,
+      "step": 1.0
+    },
+    {
+      "id": "CONCENTRATION_G_DL",
+      "markers": [
+        "g/dl",
+        "g per dl"
+      ],
+      "scale": 2.0,
+      "low": 0.0,
+      "high": 30.0,
+      "step": 0.1
+    },
+    {
+      "id": "ENZYME_U_L",
+      "markers": [
+        "u/l",
+        "units/l"
+      ],
+      "scale": 100.0,
+      "low": 0.0,
+      "high": 10000.0,
+      "step": 1.0
+    },
+    {
+      "id": "CURRENCY_DOLLARS",
+      "markers": [
+        "$",
+        "dollar",
+        "usd"
+      ],
+      "scale": 1000.0,
+      "low": 0.0,
+      "high": 100000000.0,
+      "step": 1000.0
+    },
+    {
+      "id": "GENERIC_NUMERIC",
+      "markers": [],
+      "scale": 1.0,
+      "low": -1000.0,
+      "high": 1000.0,
+      "step": 1.0
+    }
+  ]
+}

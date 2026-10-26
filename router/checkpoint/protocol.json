@@ -1,0 +1,22 @@
+{
+  "seed": 42,
+  "epochs_max": 16,
+  "patience": 6,
+  "batch_queries": 8,
+  "adapters": "rank8 alpha16, final8 encoder blocks, Wqkv/Wo/Wi/Wo",
+  "native_decision_layers": "frozen and in eval mode",
+  "loss": "balanced CE full +0.5 balanced CE semantic-only +0.05 training-only KL anchor",
+  "adapter_lr": 0.0001,
+  "full_classifier_lr": 0.0005,
+  "semantic_classifier_lr": 0.001,
+  "weight_decay": 0.05,
+  "scheduler": "one epoch warmup then linear decay to10percent",
+  "input": "whole query and all groups; one encoder call and one shared group classifier",
+  "test_evaluated": false,
+  "epoch_zero_is_candidate": true,
+  "selection": "full classifier weakest precision/recall then macro-F1; auxiliary metrics diagnostic only",
+  "split_sha256": "5ab0f0b2852a80ecdc7212f2e8c27f2a6142e3bb26b8e496b26fe34a8b00cefb",
+  "data_sha256": "80f778c6029518cc79b244f6bf924b1cd629fe27a5ea3c671d693785d5e58823",
+  "schema_sha256": "665d0707d7439b706dec6ddf9795c35b055f7573b0776c3dc598b238c476b13f",
+  "code_sha256": "19b4311624db50138d2c8b721cff7ac4a7d525785361d1167431f17af2b23873"
+}

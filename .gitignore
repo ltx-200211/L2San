@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+runs/
+results/
+outputs/
+cache/
+models/
+*.log
+*.png
+*.pdf
+*.csv
+# Local checks and detailed release notes
+docs/
+tests/
+data/manifest.json
+data/README.md
